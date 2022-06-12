@@ -1,0 +1,25 @@
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f2f1f1;
+}
+.titleSection h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.titleSection h3 {
+  font-size: 36px;
+}
+.titleSection {
+  text-align: center;
+
+  margin: 72px 0 40px;
+
+  color: #121212;
+}
+.cards {
+  width: 100%;
+}

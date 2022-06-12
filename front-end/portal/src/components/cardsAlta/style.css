@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 136px;
+}
+.titleCard {
+  font-size: 24px;
+  font-weight: 600;
+}
+.containerCard {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+.card {
+  position: relative;
+}
+.background {
+  width: 270px;
+}
+.selo {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 80px;
+}
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: rgba(8, 16, 37, 0.8);
+
+  border-radius: 0px 0px 16px 16px;
+
+  color: #fff;
+
+  padding: 8px 16px;
+}
+.title p {
+  margin-bottom: 4px;
+
+  font-size: 24px;
+}

@@ -1,0 +1,45 @@
+.loginComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginComponent h2 {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+button {
+  all: unset;
+
+  padding: 10px 20px;
+  width: 430px;
+  background-color: #ea4436;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 24px;
+}
+form button {
+  background-color: #cccc00;
+  color: #121212;
+}
+
+.loginComponent p {
+  margin: 40px 0;
+}
+.btn-redes {
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+
+  color: #fff;
+}
+.btn-redes button:nth-child(2n + 1) {
+  background-color: #1877f2;
+}

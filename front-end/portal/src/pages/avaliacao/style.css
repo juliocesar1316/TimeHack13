@@ -1,0 +1,30 @@
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.sectionAvaliar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  background-color: #000;
+}
+.sectionAvaliar img {
+  position: absolute;
+  top: 25%;
+  right: 0;
+
+  opacity: 0.3;
+}
+.titleAvaliar {
+  text-align: center;
+  color: #fff;
+  margin: 82px 0 71px;
+}
+.titleAvaliar h1 {
+  font-size: 48px;
+}
+.titleAvaliar p {
+  font-size: 18px;
+}

@@ -1,0 +1,25 @@
+.busca {
+  display: flex;
+}
+.busca input {
+  width: 800px;
+  height: 70px;
+  color: #fff;
+}
+.busca img {
+  width: 50px;
+  margin-left: -55px;
+}
+.containerCardBusca {
+  display: flex;
+  justify-content: space-around;
+
+  width: 60%;
+
+  margin-top: 32px;
+  margin-bottom: 80px;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+}

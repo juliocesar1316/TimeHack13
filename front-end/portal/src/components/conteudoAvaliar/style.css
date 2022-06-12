@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  width: 50%;
+
+  background-color: #fcfcfc;
+
+  padding: 80px 50px;
+
+  border-radius: 8px;
+
+  margin-bottom: 10%;
+
+  z-index: 1;
+}
+.textarea {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: -30px;
+}
+.textarea textarea {
+  border-radius: 8px;
+  background: #fcfcfc;
+  padding: 10px;
+}
+.checkbox input {
+  all: unset;
+
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+
+.button {
+  margin-left: 25%;
+  background-color: #6061f6;
+  color: #fff;
+  cursor: pointer;
+}

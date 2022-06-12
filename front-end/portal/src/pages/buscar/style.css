@@ -1,0 +1,13 @@
+.sectionBuscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #000;
+
+  gap: 50px;
+}
+.logoBuscar {
+  width: 30%;
+}

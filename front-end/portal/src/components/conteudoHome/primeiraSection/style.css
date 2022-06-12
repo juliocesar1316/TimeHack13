@@ -1,0 +1,37 @@
+.first-section {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #000;
+  color: #fff;
+
+  padding-top: 180px;
+}
+
+.content {
+  width: 500px;
+
+  margin: -5% 0 0 5%;
+}
+.content h1 {
+  font-size: 50px;
+  width: 700px;
+  margin-bottom: 16px;
+}
+.content p {
+  font-size: 18px;
+
+  margin-bottom: 24px;
+}
+.content button {
+  all: unset;
+
+  padding: 14px 64px;
+
+  background-color: #fefe00;
+  color: #000;
+
+  font-size: 24px;
+
+  border-radius: 16px;
+}

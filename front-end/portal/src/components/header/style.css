@@ -1,0 +1,46 @@
+* {
+  text-decoration: none;
+  font-size: 18px;
+}
+.header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1% 5%;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.itensMenu {
+  display: flex;
+  gap: 50px;
+  margin-right: 150px;
+}
+.itensMenu a {
+  color: #fff;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.log {
+  color: #fefe00;
+  font-size: 24px;
+  font-weight: 400;
+}
+.cadastrar {
+  background-color: #fefe00;
+  border-radius: 16px;
+  padding: 8px 30px;
+  color: #000;
+  font-size: 24px;
+}
+.select {
+  border-bottom: 3px solid #fefe00;
+}

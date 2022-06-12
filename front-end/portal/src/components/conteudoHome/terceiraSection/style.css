@@ -1,0 +1,39 @@
+.terceira-section {
+  background-image: url("../../../assets/background-campo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: #fff;
+}
+.terceira-section h2 {
+  font-size: 48px;
+  margin-top: 72px;
+}
+.seloDescricao {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 40px 0;
+}
+.seloDescricao img {
+  width: 350px;
+  margin-right: 50px;
+}
+.descricao {
+  width: 400px;
+}
+.descricao p {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.descricao a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: underline;
+}
